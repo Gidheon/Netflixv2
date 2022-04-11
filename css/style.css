@@ -26,7 +26,7 @@ h1,
 h2,
 h3,
 h4 {
-	color: #fff;
+	color: #fff; /* al alemento padre colocar el color base */
 }
 
 a {
@@ -41,7 +41,9 @@ p {
 img {
 	width: 100%;
 }
-
+.width100{
+	width: 100%;
+}
 .showcase {
 	width: 100%;
 	height: 93vh;
@@ -76,17 +78,23 @@ img {
 	margin-left: 0;
 }
 
-.showcase-top a {
+.modulot{
 	position: absolute;
 	top: 50%;
 	right: 0;
+}
+
+.showcase-top a {
+	/* position: absolute;
+	top: 50%;
+	right: 0; se trasladana modulot para su reutilización */ 
 	transform: translate(-50%, -50%);
 }
 
 .showcase-top select {
-	position: absolute;
+	/* position: absolute; se trasladana modulot para su reutilización
 	top: 50%;
-	right: 0;
+	right: 0; */
 	transform: translate(-250%, -50%);
 	padding: 12px;
 	box-sizing: border-box;
@@ -599,7 +607,7 @@ img {
 
 }
 
-.list h1{
+.list h2{
 	color: #fff;
 	font-size: 3rem;
 	padding: 3rem 0 4rem 0;
@@ -655,8 +663,48 @@ img {
 	margin: 0;
 	border-top: 2px solid #000;
 	margin-bottom: 6px;
+	transition: 0.1s;
 }
 
 .item:target .icon::after{
 	transform: rotateY(90deg);
+}
+
+.contenedor {
+	margin:auto;
+	width:650px;
+	height:420px;
+	text-align:center;
+	margin-right: 0%;
+	margin-top: -10%;
+	background:url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png)
+}
+.contentVideo {
+	width:510px;
+	height:260px;
+	top:100px;
+	right: 8px;
+	position:relative;
+	
+}
+
+.xsize {
+	font-size: 3.0rem;
+}
+
+.contenedor2 {
+	margin:auto;
+	width:650px;
+	height:500px;
+	text-align:center;
+	margin-right: 0%;
+	margin-top: -10%;
+	background:url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png)
+}
+.contentVideo2 {
+	width:510px;
+	height:260px;	
+	padding-top: 0px;
+	position:relative;
+	
 }
