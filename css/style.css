@@ -692,19 +692,3 @@ img {
 	font-size: 3.0rem;
 }
 
-.contenedor2 {
-	margin:auto;
-	width:650px;
-	height:500px;
-	text-align:center;
-	margin-right: 0%;
-	margin-top: -10%;
-	background:url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png)
-}
-.contentVideo2 {
-	width:510px;
-	height:260px;	
-	padding-top: 0px;
-	position:relative;
-	
-}
